@@ -18,4 +18,6 @@ def prime_or_not():
          if(y==x):                            #finally, if the looped y equals x then its proved that 
              print("Yay!...it is a prime")    #it has not been divisible by any other number
 
-prime_or_not()                                #finally call the function
+if __name__ == "__main__":
+    import sys
+    prime_or_not(int(sys.argv[1]))
