@@ -18,5 +18,5 @@ def prime_or_not():
          if(y==x):                            #finally, if the looped y equals x then its proved that 
              print("Yay!...it is a prime")    #it has not been divisible by any other number
 
-if __name__ == "__main__":
+def __name__ == "__main__":
      prime_or_not()
