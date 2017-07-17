@@ -1,5 +1,6 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
-# a function to call
+
 def prime_or_not():
      x = int(input("Enter a number: "))   # input a number
      y = x-(x-2)                          # subtract  because we know that the number is divisible by itself and one
